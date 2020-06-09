@@ -1,0 +1,4 @@
+for VARIABLE in 1 2 3 4 .. N
+do
+	        ./filler_vm -f maps/map02 -p2 ./sofchami.filler -p1 ./players/rhunders.filler | python3 ./visu/filler_visu.py 500 &
+done
